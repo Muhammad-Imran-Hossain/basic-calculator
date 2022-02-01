@@ -1,0 +1,65 @@
+@font-face {
+    font-family: digital;
+    src: url(./fonts/digital-italic.ttf);
+}
+.container{
+    margin: 30px auto;
+    width: 300px;
+    font-family: cursive;
+}
+.calculator{
+    width: 280px;
+    height: auto;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    background: #8999A7 ;
+}
+.display1, .display2{
+    background: #3E4C53;
+    color: #fff;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: digital;
+    letter-spacing: 1px;
+}
+.display{
+    padding: 10px 10px 0;
+}
+.display1{
+    border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #fff;
+    padding: 5px 10px;
+    height: 30px;
+}
+.display2{
+    border-radius: 0px 0px 5px 5px;
+    height: 50px;
+    font-weight: bold; 
+    font-size: 40px;
+    padding: 10px 10px 0;
+}
+.buttons{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+button{
+    width: 24%;
+    height: 50px;
+    margin: 1px 1px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background:   #566A77;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  
+}
+button:active{
+    background: #F0F1F2;  
+}
+button:hover{
+    background: #3E4C53;  
+}
